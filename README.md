@@ -6,7 +6,9 @@ Solidity
 
 - function => setter & getter
 
-## dat2 / ep2: visibility and mutability
+---
+
+## day2 / ep2: visibility and mutability
 
 - Visibility
 
@@ -31,9 +33,17 @@ Solidity
 
   - stack ???
 
----
-
 memory จะต่างกับ stack ที่ stackมีขนาดจำกัด
 stack จะใช้กับ premetive type - uint, bool, address
 
 !!!การประกาศ memory กับ storage ต้องคำนึงถึงเรื่อง gas!!!
+
+---
+
+## day3 / ep3: gas calculate and calldata
+
+- gas ระหว่าง memory และ storage
+
+- memory กับ calldata
+
+- enum: เป็น series interger ที่แทนด้วย string
